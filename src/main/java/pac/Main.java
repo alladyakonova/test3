@@ -1,3 +1,5 @@
+package pac;
+
 public class Main {
     public static void main(String[] args) {
         Company worker1 = new Company(5, "John");

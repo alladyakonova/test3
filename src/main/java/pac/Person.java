@@ -1,0 +1,38 @@
+package pac;
+
+public class Person {
+
+    private String firstName;
+    private String lastName;
+    private final String ssn = "123-45-6789";
+
+    Person(String firstName, String lastName, String ssn) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    String getFirstName() {
+        return this.firstName;
+    }
+
+    String getLastName() {
+        return  this.lastName;
+    }
+
+    String getSsn() {
+        return ssn;
+    }
+
+    void setFirstName(String newFirstName) {
+        this.firstName = newFirstName;
+    }
+
+    void setLastName (String newLastName) {
+        this.lastName = newLastName;
+    }
+
+    void printPersonInfo() {
+        System.out.println("Имя: " + this.firstName + ", Фамилия: " + this.lastName + ", SSN: " + ssn);
+    }
+
+}

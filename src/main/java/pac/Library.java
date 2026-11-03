@@ -2,9 +2,9 @@ package pac;
 
 public class Library {
 
-    public String bookTitle;
-    public String author;
-    public int year;
+    private String bookTitle;
+    protected String author;
+    int year;
     public String category;
 
     // private String bookTitle;

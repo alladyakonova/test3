@@ -13,8 +13,8 @@ public class GameSettings {
         maxPlayers = newMaxPlayers;
     }
 
-    int addPlayer() {
-        return currentPlayers++;
+    void addPlayer() {
+        currentPlayers++;
 
     }
 

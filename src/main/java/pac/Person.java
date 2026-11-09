@@ -4,11 +4,12 @@ public class Person {
 
     private String firstName;
     private String lastName;
-    private final String ssn = "123-45-6789";
+    private final String ssn;
 
     Person(String firstName, String lastName, String ssn) {
         this.firstName = firstName;
         this.lastName = lastName;
+        this.ssn = ssn;
     }
 
     String getFirstName() {

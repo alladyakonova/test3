@@ -2,11 +2,12 @@ package pac;
 
 public class Company {
     static String companyName = "Microsoft";
-    final int employeeID = 4;
+    final int employeeID;
     String employeeName;
 
     Company (int employeeID, String someEmployeeName) {
         this.employeeName = someEmployeeName;
+        this.employeeID = employeeID;
     }
 
     static void printCompanyName() {

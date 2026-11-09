@@ -2,11 +2,12 @@ package pac;
 
 public class University {
     static String universityName = "МГУ";
-    final int studentID = 12;
+    final int studentID;
     String studentName;
 
     University (int studentID, String studentName) {
         this.studentName = studentName;
+        this.studentID = studentID;
     }
 
     static void changeUniversityName(String newName) {
